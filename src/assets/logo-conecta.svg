@@ -1,0 +1,45 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hexágonos de fundo -->
+  <g opacity="0.3">
+    <path d="M60 30 L80 20 L100 30 L100 50 L80 60 L60 50 Z" fill="#B0BEC5"/>
+    <path d="M100 50 L120 40 L140 50 L140 70 L120 80 L100 70 Z" fill="#CFD8DC"/>
+    <path d="M80 70 L100 60 L120 70 L120 90 L100 100 L80 90 Z" fill="#90A4AE"/>
+  </g>
+  
+  <!-- Hexágono principal (azul escuro) -->
+  <path d="M70 60 L100 40 L130 60 L130 100 L100 120 L70 100 Z" fill="#004A7F" stroke="#003D6B" stroke-width="2"/>
+  
+  <!-- Círculo central com "C" -->
+  <circle cx="100" cy="80" r="28" fill="#00BCD4" stroke="#0097A7" stroke-width="2"/>
+  
+  <!-- Letra "C" -->
+  <path d="M110 65 Q95 65 95 80 Q95 95 110 95" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Elementos de circuito/conexão -->
+  <g stroke="#00BCD4" stroke-width="2" fill="none">
+    <!-- Setas e conexões -->
+    <path d="M40 80 L65 80" stroke-linecap="round"/>
+    <circle cx="40" cy="80" r="3" fill="#00BCD4"/>
+    
+    <path d="M135 80 L160 80" stroke-linecap="round"/>
+    <circle cx="160" cy="80" r="3" fill="#00BCD4"/>
+    
+    <path d="M100 30 L100 50" stroke-linecap="round"/>
+    <circle cx="100" cy="30" r="3" fill="#00BCD4"/>
+    
+    <path d="M100 110 L100 130" stroke-linecap="round"/>
+    <circle cx="100" cy="130" r="3" fill="#00BCD4"/>
+  </g>
+  
+  <!-- Setas decorativas -->
+  <g fill="#0097A7">
+    <path d="M155 75 L160 80 L155 85" />
+    <path d="M45 75 L40 80 L45 85" />
+  </g>
+  
+  <!-- Texto CONECTA -->
+  <text x="100" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#004A7F" text-anchor="middle">CONECTA</text>
+  
+  <!-- Texto CIDADES INTELIGENTES -->
+  <text x="100" y="182" font-family="Arial, sans-serif" font-size="10" fill="#666666" text-anchor="middle" letter-spacing="1">CIDADES INTELIGENTES</text>
+</svg>
