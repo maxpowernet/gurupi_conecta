@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const [ref, inView] = useInView({
@@ -66,8 +67,14 @@ const Hero = () => {
               variants={itemVariants}
               className="flex flex-col sm:flex-row gap-4 mt-4 w-full sm:w-auto"
             >
-              <a
+              <Link
+                to="/gurupi-inteligente"
                 className="flex min-w-[84px] w-full sm:w-auto max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-8 bg-primary text-white text-base font-bold shadow-lg hover:bg-primary/90 transition-transform duration-200 hover:scale-105"
+              >
+                <span className="truncate">Acessar Plataforma</span>
+              </Link>
+              <a
+                className="flex min-w-[84px] w-full sm:w-auto max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-8 border-2 border-primary text-primary text-base font-bold hover:bg-primary/10 transition-all duration-200"
                 href="#pilares"
               >
                 <span className="truncate">Explore os Pilares</span>

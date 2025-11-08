@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import PoderPublicoPortal from './pages/PoderPublicoPortal';
 import ObservatorioAcademicoPortal from './pages/ObservatorioAcademicoPortal';
 import HubEmpresarialPortal from './pages/HubEmpresarialPortal';
+import GurupiInteligente from './pages/GurupiInteligente';
 import './index.css';
 
 function HomePage() {
@@ -115,6 +116,7 @@ function App() {
             <Footer />
           </div>
         } />
+        <Route path="/gurupi-inteligente" element={<GurupiInteligente />} />
       </Routes>
     </Router>
   );
