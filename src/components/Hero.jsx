@@ -92,7 +92,7 @@ const Hero = () => {
               <img
                 alt="Vista panorâmica da cidade de Gurupi com céu azul e áreas verdes."
                 className="rounded-lg aspect-video w-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKNXo9pkLNm1BCCk9iFmEhSrJ_U3SGl9hyfAOM6UxlN97tzHd6fgKgsU8NJrGhrFeZQXo0JnrsoAgd-4CreN4jORNyAcJJKOBo7dpZYbsEpknFYmFuwThLyon_b5vvvgNbqnJyQ3lYik48kT19kJRT06s7Gs3cRmMp7HE2838rGgFYZyBgHaq9zDGlEQaVVBItBVbEgi4ebVlbGyRdqcnpPeWlBFbngJIUwDpVux6avO-IZZ6PzSvuivuxTBUl1oZEhkis1a4jedxq"
+                src="https://ecletk.com.br/img/12dfb350fd6d8a4bcf336bd818614079.jpg"
               />
             </div>
           </motion.div>
