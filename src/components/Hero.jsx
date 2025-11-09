@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
+import gpiImage from '../assets/gpi.png';
 
 const Hero = () => {
   const [ref, inView] = useInView({
@@ -90,9 +91,9 @@ const Hero = () => {
           >
             <div className="p-4 bg-white dark:bg-gray-800 rounded-xl shadow-2xl hover:shadow-3xl transition-shadow duration-300">
               <img
-                alt="Vista panorâmica da cidade de Gurupi com céu azul e áreas verdes."
+                alt="Monumento colorido icônico da cidade de Gurupi."
                 className="rounded-lg aspect-video w-full object-cover"
-                src="https://ecletk.com.br/img/12dfb350fd6d8a4bcf336bd818614079.jpg"
+                src={gpiImage}
               />
             </div>
           </motion.div>
